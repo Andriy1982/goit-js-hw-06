@@ -1,8 +1,6 @@
 
 import users from './user.js'
-console.log(users)
 
-// Получить массив имен пользователей по полу (поле gender).
 
 const getUsersWithGender = (users, gender) => {
 return users.filter(item => item.gender === gender).map(item => item.name);

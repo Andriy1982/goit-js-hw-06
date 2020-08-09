@@ -1,7 +1,6 @@
 'use strict'
 
 import users from './user.js'
-console.log(users)
 
 const getUsersWithAge = (users, min, max) => {
     return users.filter(item => (item.age > min) && (item.age < max))

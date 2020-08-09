@@ -1,7 +1,6 @@
-import users from './user.js'
-console.log(users)
+'use strict'
 
-// Получить массив только неактивных пользователей (поле isActive).
+import users from './user.js'
 
 const getInactiveUsers = users => {
   return users.filter(item => !item.isActive)

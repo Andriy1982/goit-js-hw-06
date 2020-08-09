@@ -1,9 +1,6 @@
 'use strict'
 
 import users from './user.js'
-console.log(users)
-
-// Получить пользоваля (не массив) по email (поле email, он уникальный).
 
 const getUserWithEmail = (users, email) => {
     return users.find(item => item.email === email);

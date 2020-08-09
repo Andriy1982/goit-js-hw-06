@@ -1,7 +1,6 @@
 'use strict'
 
 import users from './user.js'
-console.log(users)
 
 const getUsersWithEyeColor = (users, color) => {
     return users.filter(item => item.eyeColor === color);

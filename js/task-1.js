@@ -2,9 +2,6 @@
 
 import users from './user.js'
 
-
-console.log(users)
-
 const getUserNames = users => {
    return users.map(element => element.name);
   };
